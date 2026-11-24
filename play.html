@@ -1,74 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Play football with Ropes Crossing FC. Registration, teams, fixtures and season information.">
-  <title>Play | Ropes Crossing FC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Play | Ropes Crossing FC</title>
+<style>
+body{margin:0;font-family:Arial;color:#152235;line-height:1.6}
+header,footer{background:#071c34;color:#fff;padding:18px 24px}
+nav,.wrap{max-width:1100px;margin:auto}
+nav{display:flex;justify-content:space-between}
+nav a{color:#fff;text-decoration:none;margin-left:20px;font-weight:bold}
+.logo{margin:0}.hero{background:#087fc1;color:#fff;padding:80px 24px}
+.hero h1{font-size:55px;margin:0}.section{padding:55px 24px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#f2f6f9;padding:25px;border-top:4px solid #159ee7}
+.btn{background:#087fc1;color:#fff;padding:12px 20px;text-decoration:none;display:inline-block}
+footer{text-align:center}@media(max-width:700px){.grid{grid-template-columns:1fr}.links{display:none}}
+</style>
+</head>
+<body>
+<header><nav>
+<a class="logo" href="index.html">ROPES CROSSING FC</a>
+<div class="links">
+<a href="index.html">Home</a>
+<a href="club.html">Our Club</a>
+<a href="play.html">Play</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav></header>
 
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+<div class="hero"><div class="wrap">
+<h1>Play Football.</h1>
+<p>Everything you need to play with Ropes Crossing FC.</p>
+</div></div>
 
-    html { scroll-behavior: smooth; }
+<div class="section"><div class="wrap">
+<h2>Find your football</h2>
+<div class="grid">
+<div class="card"><h3>⚽ MiniRoos</h3><p>Football for our younger players.</p></div>
+<div class="card"><h3>🏃 Junior Football</h3><p>Develop your game and play as part of a team.</p></div>
+<div class="card"><h3>🏆 Competition Football</h3><p>Teams and competitions for the upcoming season.</p></div>
+</div>
+</div></div>
 
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      color: #152235;
-      background: #fff;
-      line-height: 1.6;
-    }
+<div class="section"><div class="wrap">
+<h2>Registration</h2>
+<p>Registration dates, fees and season information will be available here.</p>
+<a class="btn" href="contact.html">Registration Enquiries</a>
+</div></div>
 
-    header {
-      background: #071c34;
-      color: white;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
+<div class="section"><div class="wrap">
+<h2>Fixtures & Results</h2>
+<p>Find upcoming games, competition information and results.</p>
+<a class="btn" href="#">Fixtures Coming Soon</a>
+</div></div>
 
-    .nav {
-      max-width: 1200px;
-      margin: auto;
-      padding: 14px 24px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .club-name {
-      color: white;
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 1.25rem;
-      letter-spacing: .5px;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin-left: 22px;
-      font-weight: 600;
-      font-size: .95rem;
-    }
-
-    nav a:hover,
-    nav a.active {
-      color: #56b5ff;
-    }
-
-    .page-hero {
-      background: linear-gradient(120deg, #071c34, #087fc1);
-      color: white;
-      padding: 95px 24px;
-    }
-
-    .container {
-      max-width: 1200px;
-      margin: auto;
-    }
-
-    .eyebrow,
-    .section-label {
-      color: #54bfff;
-      font-size: .8rem;
-      font-weight: 800;
+<footer>© 2026 Ropes Crossing FC</footer>
+</body>
+</html>
